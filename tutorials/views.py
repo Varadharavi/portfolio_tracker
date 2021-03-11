@@ -8,6 +8,7 @@ from .models import Tutorial
 from .serializers import TutorialSerializer
 from rest_framework.decorators import api_view
 
+# Source -- https://bezkoder.com/django-rest-api/
 
 @api_view(['GET', 'POST', 'DELETE'])
 def transaction_list(request):
